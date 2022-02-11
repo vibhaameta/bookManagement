@@ -1,0 +1,58 @@
+.navBar
+{
+    background: #100416;
+    padding: 0.5rem;
+}
+.item-flex
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.Company-name{
+    color: white;
+    font-size: 31px;
+    font-weight: 800;
+}
+
+.Home_products
+{
+    display: flex;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+.Home_products_wd
+{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+.product_detail
+{
+    width: 30%;
+    max-width: 100%; 
+}
+.product_link
+{
+    width: 23%;
+    color: black;
+    background: #40005d;
+    padding: 2.5rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+.product_link a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.product_link:hover{
+    box-shadow: inset;
+}
+@media screen and (max-width:780px){
+    .Home_products {
+        flex-flow: wrap;
+    }
+}

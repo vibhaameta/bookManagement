@@ -1,0 +1,32 @@
+
+.addbook
+{
+    margin: 0.6rem;
+    width: 23%;
+    background: white;
+    border: 1px solid #e5e5ea;
+    border-radius: 15px;
+    display: inline-flex;
+}
+.addbook_Detail
+{
+    padding: 0.5rem;
+}
+.addBook_btn{
+    font: inherit;
+    cursor: pointer;
+    padding: 0.6rem 2rem;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    border-radius: 12px;
+    width: 10rem;
+    height: 3rem;
+    margin: 2rem 0;
+}
+@media screen and (max-width:780px)
+{
+    .addbook {
+        width: 90%;
+    }
+}

@@ -1,0 +1,56 @@
+.topSearch
+{
+    background: #100416;
+    text-align: center;
+    padding: 11px;
+}
+.topSearch input
+{
+    padding: 10px;
+    width: 20rem;
+    border: 1px solid white;
+}
+.topSearch button
+{
+    font: inherit;
+    cursor: pointer;
+   border: none;
+    background-color: #40005d;
+    color: white;
+    width: 6rem;
+    padding: 9px;
+    margin: 0;
+}
+.updateBook
+{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.updateBook input
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.updateBook button
+{
+    font: inherit;
+    cursor: pointer;
+   border: none;
+    background-color: #40005d;
+    color: white;
+    width: 6rem;
+    padding: 9px;
+    margin: 0;
+    border-radius: 8px;
+}
+@media screen and (max-width:780px)
+{
+    .topSearch input {
+        padding: 10px;
+        width: 12rem;
+    }
+}
